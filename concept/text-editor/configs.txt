@@ -1,0 +1,41 @@
+конфиг 
+- простой текстовый .conf файл 
+- редактируется в самого приложении
+
+что можно менять
+- иконки
+- цвета (сзади спереди)
+- линию
+- выравнивание слева по середине справо
+
+line - overlined strike underlined
+fg#HEX - foreground hex color
+bg#HEX - background hex color
+
+переменные
+let.name=fff
+let.s=strike
+let.checkbox=󰄱\s
+let.checkboxed=󰄲\s
+если нужен markdown
+(\*\*)(.+?)(\*\*)=>hide|fg.ffffff,bg.000000|hide
+(_)(.+?)(_)=>hide|fg.ff0000|hide
+(~~)(.+?)(~~)=>hide|line.strike|hide
+^(#+ )(.*)$=>hide|fg.fff000
+если хочешь орг
+^(\*+ )(.*)$=>hide|fg.00aaff
+кастомные
+(TODO)=>fg.ff0000,bg.330000
+checkbox
+(- [ ]\s)(.*)=>checkbox,fg.00ff00|fg.00ff00
+[buttons]
+buffer,display
+
+(\[\[)(.+?)(\]\])=>hide|fg.00aaff,line.underlined,@link|hide
+^(\s*- \[ \]\s)(.*)=>icon.checkbox,fg.00ff00,@toggle|none
+^(\s*- \[x\]\s)(.*)=>icon.checkboxed,fg.888888,@toggle|line.strike
+
+мы регуляркой меняем буфер в дисплей а в дисплее мы можем обернуть кнопкой и реализовать простые функции для данной кнопки который запоминает место где в буфере находится оригинальный - [ ] и потом просто кидаешь логику типа что сделать этим регионом? например в нашем случае replace (󰄱) типа он сам поймет что нужно заменить - [ ](cords0,5) на 󰄱
+
+комент - пока не разобрасля что хочу /*coment*/ <!--coment--> //coment// #coment# --coment-- ;;coment;;
+

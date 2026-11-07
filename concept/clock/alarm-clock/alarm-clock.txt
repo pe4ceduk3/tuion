@@ -1,0 +1,12 @@
+будильник это простой .txt можно и без расширения
+- main/.clock/alarm.conf
+
+Sintax
+- [ ] hh.mm,1234567:description
+- [ ] hh.mm-yyyy.MM.dd:description
+- [ ] hh.mm-MM.dd:description <!--ближайшее время-->
+- [ ] hh.mm-dd:description <!--ближайшее время-->
+  > description <!--отступ-->
+
+- [x] Работает
+- [ ] НЕ работает
