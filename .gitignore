@@ -1,7 +1,14 @@
 /target
 # RAG storage
-/rag_storage/
-
+rag_storage/
+.ai-memory/
 # Локальные конфигурации
 /config.json
 /config.json.bak
+
+AGENTS.md
+CLAUDE.md
+.agents/
+.cursor/
+.windsurf/
+.github/copilot-instructions.md
