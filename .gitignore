@@ -1,1 +1,7 @@
 /target
+# RAG storage
+/rag_storage/
+
+# Локальные конфигурации
+/config.json
+/config.json.bak
