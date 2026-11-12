@@ -175,8 +175,8 @@
       "chunks": 1
     },
     "/home/duke/projects/tuion/rag_storage/tuion/file_hashes.json": {
-      "sha256": "da01a7a858c2251c3060931ff8447a759268f686554f1f411107c0ae85934fb1",
-      "last_indexed_at": "2026-11-12T23:49:32.351247",
+      "sha256": "fe070828dd88fb6a2637878e21eaafd0e383cc520f4d5eb3d6103b5b1f7378bf",
+      "last_indexed_at": "2026-11-13T00:00:58.701706",
       "chunks": 7
     },
     "/home/duke/projects/tuion/rag_storage/tuion/metadata.json": {
@@ -185,8 +185,8 @@
       "chunks": 1
     },
     "/home/duke/projects/tuion/rag_storage/tuion/owner.json": {
-      "sha256": "698c724c9ea3a874168cf54ddac72d10445fb19dc914ecdc609254e1d52b09d1",
-      "last_indexed_at": "2026-11-12T23:49:32.351297",
+      "sha256": "6b66af0b968850bde6799a14198b2bfc725b93ccf7c9abdf3fb18e146a9b9bf0",
+      "last_indexed_at": "2026-11-13T00:00:39.054786",
       "chunks": 1
     },
     "/home/duke/projects/tuion/src/core.rs": {
