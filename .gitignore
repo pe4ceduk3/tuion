@@ -5,6 +5,7 @@ rag_storage/
 # Локальные конфигурации
 /config.json
 /config.json.bak
+concept/.stfolder/syncthing-folder-dfcac9.txt
 
 AGENTS.md
 CLAUDE.md
