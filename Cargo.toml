@@ -30,12 +30,12 @@ ndk-context = "0.1.1"
 # fuzzy-ранжирование путей
 nucleo = "0.5.0"
 # обход дерева: .gitignore, скрытые, параллельно
-ignore = "0.4.34"
+ignore = "0.4.35"
 
 # включить, когда появится поиск по содержимому файлов:
-grep-searcher = "0.1.17"
-grep-regex = "0.1.14"
-grep-matcher = "0.1.9"
+grep-searcher = "0.1.18"
+grep-regex = "0.1.15"
+grep-matcher = "0.1.10"
 
 #font-kit = "0.14.3"
 #tui_calendar, CalendarEventStore, Monthly
